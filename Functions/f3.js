@@ -5,4 +5,5 @@ else
 return true;
 }
 
+let a = 10;
 console.log (isOdd(a));
