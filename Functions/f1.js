@@ -1,7 +1,7 @@
-function addNumbers (a,b){
-return a+b;}
-
 let a = 5;
 let b = 6;
 
-console.log (addNumbers(a,b));
+function addNum (a,b){
+return a+b;}
+
+console.log (addNum(a,b));
