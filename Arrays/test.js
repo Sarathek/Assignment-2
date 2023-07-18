@@ -8,8 +8,8 @@ for (let i = 0; i < Math.floor(characters.length / 2); i++) {
     return "YES";
 }
 
-const input1 = "Sarath";
-const input2 = "Saras";
+const input1 = "madam";
+const input2 = "saras";
 
 console.log(isPalindrome(input1));
 console.log(isPalindrome(input2));
