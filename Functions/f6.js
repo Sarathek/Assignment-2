@@ -6,3 +6,10 @@ else if(a==='B')
 return 'b';
 else if(a==='C')
 return 'c';
+else
+return 0
+}
+}
+
+let a ='c'
+console.log (toLow(a))
