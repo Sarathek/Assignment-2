@@ -1,4 +1,4 @@
-const a=["Edstem","Technology","private","Limited"];
+const a=["Edstem","Technology","Private","Limited"];
 
 let b = a.map (function(e)
 {
