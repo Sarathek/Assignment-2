@@ -1,17 +1,15 @@
-function isPalindrome(str) {
-const characters = Array.from(str);
+const a = 'saras';
 
-for (let i = 0; i < Math.floor(characters.length / 2); i++) {
-  if (characters[i] !== characters[characters.length - 1 - i]) {
-     return "NO";  }
-    }
-    return "YES";
+function checkPalindrome(string) {
+const arrayValues = string.split('');
+const reverseArrayValues = arrayValues.reverse();
+const reverseString = reverseArrayValues.join('');
+
+if(string == reverseString) {
+console.log('It is a palindrome');
 }
-
-const input1 = "madam";
-const input2 = "saras";
-
-console.log(isPalindrome(input1));
-console.log(isPalindrome(input2));
-
- 
+else {
+console.log('It is not a palindrome');
+}
+}
+checkPalindrome(a);
