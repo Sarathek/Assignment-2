@@ -1,15 +1,8 @@
-function calculateAverage(marks) {
+const a = [24,67,56,45,78,90];
+let t = 0;
 
-let sum = 0;
-
-for (let i = 0; i < marks.length; i++) {
-sum += marks[i];
-}
-const average = sum / marks.length;
-return average;
+for(let i=0;i<a.length;i++){
+t=t+a[i];
 }
 
-const marks = [83, 96, 76, 91, 77];
-const average = calculateAverage(marks);
-
-console.log(average);  
+console.log ('average is:',t/a.length); 

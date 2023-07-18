@@ -1,5 +1,9 @@
-const sentence = "Coding is Easy";
-const words = sentence.split(" ");
-const wordCount = words.length;
+const a = 'This is a test statement.';
+let c = 0;
 
-console.log(wordCount);
+for (let i=0;i<a.length;i++){
+if (a[i]==' '||a[i]=='.')
+c++;    
+}
+
+console.log ('Total words:',c);

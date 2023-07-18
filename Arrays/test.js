@@ -1,11 +1,11 @@
 const a = 'saras';
 
-function checkPalindrome(string) {
-const arrayValues = string.split('');
-const reverseArrayValues = arrayValues.reverse();
-const reverseString = reverseArrayValues.join('');
+function checkPalindrome(s) {
+const aV = s.split('');
+const rAV = aV.reverse();
+const rS = rAV.join('');
 
-if(string == reverseString) {
+if(s == rS) {
 console.log('It is a palindrome');
 }
 else {

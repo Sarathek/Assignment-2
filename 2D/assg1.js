@@ -1,5 +1,5 @@
 let a = ['html','css','java','js','android'];
-let c=0;
+let c = 0;
 
 for(let i=0;i<a.length;i++){
 for(let j=0;j<a[i].length;j++)

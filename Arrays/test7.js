@@ -1,8 +1,6 @@
-let inputString = "Edstem";
-let result = "";
-
-for (let i = 1; i < inputString.length; i += 2) {
-result += inputString[i];
+const a = 'Edstem';
+ 
+for (let i=0;i<a.length;i++){
+if (i%2!=0)
+console.log (a[i]);
 }
-
-console.log(result);

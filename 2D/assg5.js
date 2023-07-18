@@ -1,5 +1,5 @@
 const a=['assignment','problem','media','upload'];
-let b=[];
+let b= [];
 
 for (let i=0;i<a.length;i++){
 let j=a[i].length-1;

@@ -1,10 +1,9 @@
-function removeOddLengthStrings(strings) {
+const a = ['edstem','react','html','foodie','coder'];
+let b= [];
 
-const filteredStrings = strings.filter(str => str.length % 2 === 0);
-return filteredStrings;
+for (let i=0;i<a.length;i++){
+if(a[i].length%2==0)
+b.push(a[i]);
 }
 
-const strings = ['edstem', 'react', 'html', 'foodie', 'coder'];
-const filteredStrings = removeOddLengthStrings(strings);
-
-console.log(filteredStrings);
+console.log (b);

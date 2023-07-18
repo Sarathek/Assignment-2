@@ -1,7 +1,7 @@
-const array = [];
+let a =[];
 
-for (let i = 1; i <= 10; i++) {
-array.push(i);
+for (let i=1;i<=10;i++){
+a.push(i);
 }
 
-console.log(array);
+console.log (a);

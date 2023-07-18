@@ -1,19 +1,8 @@
-function changeMultiplesOfThree(numbers) {
-const changedNumbers = [];
+const a = [5,9,8,22,12,18];
 
-for (let i = 0; i < numbers.length; i++) {
-if (numbers[i] % 3 === 0) {
-
-    changedNumbers.push('multiple');
-} else {
-changedNumbers.push(numbers[i]);
-}
+for (let i=0;i<a.length;i++){
+if (a[i]%3==0)
+a[i] = 'multiple';
 }
 
-return changedNumbers;
-}
-
-const numbers = [5, 9, 7, 12, 23, 18];
-const changedNumbers = changeMultiplesOfThree(numbers);
-
-console.log(changedNumbers);  
+console.log (a);

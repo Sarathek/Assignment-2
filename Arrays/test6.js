@@ -1,16 +1,16 @@
-let inputString = "I'm learning javascript basics";
-let words = [];
-let currentWord = "";
+const str = "This is a test statement.";
+let a = [];
+let b = '';
+let i = 0;
 
-for (let i = 0; i < inputString.length; i++) {
-const currentChar = inputString[i];
-
-if (currentChar === " ") {
-words.push(currentWord);
-currentWord = "";
-} else {
-currentWord += currentChar; }
+while (i<str.length){
+b=b+str[i];
+if (str[i]==' ' || str[i]=='.')
+{
+a.push(b);
+b='';
+} 
+i++;  
 }
-words.push(currentWord);
 
-console.log(words);
+console.log(a);
