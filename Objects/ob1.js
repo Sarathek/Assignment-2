@@ -1,13 +1,8 @@
-let a = ['Radha',22,'M'];
-let employee = {
-Name:'',age:null,gender:''
-}
-let i=0;
+const arr = ['radhe', 22, 'M', 'radha@gmail.in'];
+const obj = {};
 
-for (key in employee)
-{
-employee[key]=a[i];
-i++;
-}
+arr = [obj.name, obj.age, obj.gender, obj.email];
 
-console.log (employee)
+for (let key in obj) {
+  console.log (key + ' : ' + obj[key]);
+} 
