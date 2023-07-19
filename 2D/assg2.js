@@ -1,5 +1,16 @@
-const a = [100,20,31,150,39,72];
-let low = Math.min(...a);
- high = Math.max(...a);
+const a = [1,20,31,150,39,2,850,10];
+let low = a [0];
+let high = a[0];
 
-console.log ('Highest value is:',high,'and lowest value is:',low);
+for (let i=1;i< a.length;i++) {
+if (low >a[i]) {
+low = a[i];
+}
+if (high < a[i])
+{
+    high = a[i];
+}
+}
+
+console.log ("The Lowest Score is:",low);
+console.log ("The Highest Score is:",high);
