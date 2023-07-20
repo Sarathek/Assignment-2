@@ -1,6 +1,6 @@
 const a = [1,20,31,150,39,2,850,10];
 let low = a [0];
-let high = a[0];
+let high = a [0];
 
 for (let i=1;i< a.length;i++) {
 if (low >a[i]) {

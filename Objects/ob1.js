@@ -1,7 +1,7 @@
 const arr = ['radhe', 22, 'M', 'radha@gmail.in'];
 const obj = {};
 
-arr = [obj.name, obj.age, obj.gender, obj.email];
+[obj.name, obj.age, obj.gender, obj.email] = arr;
 
 for (let key in obj) {
   console.log (key + ' : ' + obj[key]);

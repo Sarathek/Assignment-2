@@ -1,8 +1,7 @@
-const a = ["assignment","technology","problem","media","limited"];
+let arr = ["assignment","technology","problem","media","upload"];
 
-let b = a.filter(function(e)
-{
-if (e[0]=='a' || e[e.length-1]=='a')
-return e})
+let out = arr.filter (function (el){
+if (el[0]=='a' || el[el.length-1] == 'a')
+return el})
 
-console.log (b)
+console.log (out);

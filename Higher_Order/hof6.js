@@ -1,7 +1,5 @@
-const a=["Edstem","Technology","Private","Limited"];
+let arr = ["Edstem","Technology"];
 
-let b = a.map (function(e)
-{
-return e[0]})
-
-console.log (b)
+arr.forEach (function (el){
+console.log (el[0])
+})

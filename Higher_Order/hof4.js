@@ -1,8 +1,7 @@
-const a = [2,3,4]
-let product = a.reduce(function(ac,e)
-{   
-return ac*e
+let arr = [2,3,4]
+
+let pro = arr.reduce (function (ac,el){
+    return ac*el
 })
 
-
-console.log (product)
+console.log (pro);

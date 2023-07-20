@@ -1,8 +1,7 @@
-const a = [1,2,3]
+let arr = [1,2,3]
 
-let b = a.filter(function(e)
-{   
-return e%3==0
+let out = arr.filter(function (el){   
+return el%3 == 0
 })
 
-console.log (b)
+console.log (out);

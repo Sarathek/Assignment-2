@@ -1,9 +1,9 @@
-const a = [2,3,5,7,9]
+let arr = [2, 3, 5, 7, 9];
 
-function square(e){
-return e*e
+function square(el){
+    return el*el
 }
 
-a.forEach (function(e)
-{
-console.log (square(e))})
+arr.forEach (function(el){
+    console.log (square(el))
+})

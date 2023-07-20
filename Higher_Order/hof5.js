@@ -1,6 +1,6 @@
-const a = ["Edstem","technology"];
+let arr = ["Edstem","Technology"];
 
-a.forEach (function(e)
-{
+let out = arr.map (function (el){
+return (el.length)})
 
-console.log (e,'-',e.length)})
+console.log (out);

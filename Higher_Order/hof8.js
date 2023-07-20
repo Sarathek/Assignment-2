@@ -1,7 +1,7 @@
-const a = ["Edstem","technology","private","limited"];
-let b = a.reduce (function(ac,e)
-{
-   return ac+'_'+e
+let arr = ["Edstem","Tech"];
+
+let out = arr.reduce (function (ac,el){
+return ac+'_'+el
 })
 
-console.log (b)
+console.log (out);
